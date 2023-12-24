@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    list-style: none;
+}
+
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+}
+
+input,
+button,
+select,
+textarea {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1290px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+.container-sm {
+    width: 100%;
+    max-width: 767px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+/* common css */
+.btn {
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: #7757f4;
+    background: #fff;
+    border: 1px solid #7757F4;
+    font-family: 'Inter', sans-serif;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #7757f4;
+}
+
+.btn2 {
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: #fff;
+    color: #fff;
+    background-color: #7757f4;
+    border: 1px solid #7757F4;
+    font-family: 'Inter', sans-serif;
+    transition: all 0.5s ease-in-out;
+
+}
+.btn2:hover{
+    color: #7757F4;
+    background-color: transparent;
+}
+p {
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px;
+    line-height: 57px;
+    font-style: normal;
+    font-weight: 600
+}
+
+h1 span {
+    font-size: 48px;
+    color: #7757f4;
+    font-weight: 700;
+}
+
+h2 {
+    color: #404040;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
+/* font-family: 'Nunito', sans-serif; */
+/* font-family: 'Source Code Pro', monospace; */
+h3 {
+    color: #404040;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align {
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-end {
+    justify-content: end;
+}
+
+.col-helf {
+    width: 48%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-50 {
+    width: 48%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 15px 7px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    outline: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.icon-cricle {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+.mt-top {
+    margin: 50px;
+}
+
+.mb {
+    margin-bottom: 160px;
+}
+
+.mtb {
+    margin: 0;
+    padding: 0;
+}
+
+/* .common-heading{} */
+/* .common-para{} */
